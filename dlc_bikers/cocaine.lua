@@ -56,7 +56,7 @@ BikerCocaine = {
     },
 
     LoadDefault = function()
-        BikerCocaine.Ipl.Interior.Load()
+        BikerCocaine.Ipl.Interior.Remove()
         BikerCocaine.Style.Set(BikerCocaine.Style.upgrade)
         BikerCocaine.Security.Set(BikerCocaine.Security.upgrade)
         BikerCocaine.Details.Enable(BikerCocaine.Details.cokeBasic3, false)
