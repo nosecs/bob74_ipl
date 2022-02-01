@@ -25,7 +25,7 @@ BikerMethLab = {
             end
         end,
         Clear = function(refresh)
-            SetIplPropState(BikerMethLab.interiorId, {BikerMethLab.Style.empty, BikerMethLab.Style.basic, BikerMethLab.Style.upgrade}, false, refresh)
+            SetIplPropState(BikerMethLab.interiorId, {BikerMethLab.Style.upgrade, BikerMethLab.Style.upgrade, BikerMethLab.Style.upgrade}, false, refresh)
         end
     },
     Security = {

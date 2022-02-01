@@ -21,7 +21,7 @@ BikerWeedFarm = {
             SetIplPropState(BikerWeedFarm.interiorId, style, true, refresh)
         end,
         Clear = function(refresh)
-            SetIplPropState(BikerWeedFarm.interiorId, {BikerWeedFarm.Style.basic, BikerWeedFarm.Style.upgrade}, false, refresh)
+            SetIplPropState(BikerWeedFarm.interiorId, {BikerWeedFarm.Style.upgrade, BikerWeedFarm.Style.upgrade}, false, refresh)
         end
     },
     Security = {

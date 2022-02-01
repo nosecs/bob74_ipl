@@ -27,7 +27,7 @@ BikerCocaine = {
             end
         end,
         Clear = function(refresh)
-            SetIplPropState(BikerCocaine.interiorId, {BikerCocaine.Style.basic, BikerCocaine.Style.upgrade}, false, refresh)
+            SetIplPropState(BikerCocaine.interiorId, {BikerCocaine.Style.upgrade, BikerCocaine.Style.upgrade}, false, refresh)
         end
     },
     Security = {
