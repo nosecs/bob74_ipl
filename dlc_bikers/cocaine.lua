@@ -59,6 +59,7 @@ BikerCocaine = {
         BikerCocaine.Ipl.Interior.Load()
         BikerCocaine.Style.Set(BikerCocaine.Style.upgrade)
         BikerCocaine.Security.Set(BikerCocaine.Security.upgrade)
+        BikerCocaine.Details.Set(Biker.Cocaine.Details.cokeUpgrade2)
         RefreshInterior(BikerCocaine.interiorId)
     end
 }
